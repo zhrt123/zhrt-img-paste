@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle zhrt-img-paste",
+        "command": "zhrt-img-paste:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "zhrt-img-paste",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "zhrt-img-paste:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
